@@ -1,7 +1,7 @@
 import {Application, type Container, EventEmitter} from 'pixi.js'
 import {GAME_STATES} from '@/game/config/constants.ts'
 import GameConfig from '@/game/config/GameConfig.ts'
-// import {getGameResolution} from '@/game/config/resolutionConfig.mjs'
+import {getGameResolution} from '@/game/config/resolutionConfig.mjs'
 import SoundManager from '@/game/engine/audio/SoundManager.ts'
 import GameContainer from '@/game/engine/GameContainer.ts'
 import GameResize from '@/game/engine/GameResize.ts'
@@ -89,7 +89,7 @@ export default class Game extends EventEmitter {
       autoDensity: true,
       backgroundColor: 0x000000,
       backgroundAlpha: 1,
-      // resolution: getGameResolution(window.devicePixelRatio),
+      resolution: getGameResolution(window.devicePixelRatio),
       antialias: false,
       preference: 'webgl',
     })
