@@ -1,6 +1,12 @@
 # Catch Master
 
-## Запуск
+<p align="center">
+  <a href="https://westerovs.github.io/catch-master/">
+    <img src="https://img.shields.io/badge/▶%20PLAY%20GAME-Catch%20Master-2ea44f?style=for-the-badge" alt="Play Catch Master">
+  </a>
+</p>
+
+### Запуск dev:
 
 ```bash
 npm start
